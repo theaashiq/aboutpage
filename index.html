@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-a {color:blue}
-a:hover {color:green}
-a:active {color:red}
-</style>
-<title>About</title>
-</head>
-<body style="margin:auto;border:2px solid black;width:800px;padding:20px">
-<h2>About</h2>
-<h3>Frontend</h3>
-<p style="text-align:justify">A Front-End Developer is someone who creates websites and web applications.
-                              The difference between Front-End and Back-End is that Front-End refers to how a web page looks, 
-							  while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.
-                              The basic languages for Front-End Development are HTML, CSS, and JavaScript.</p>
-<div style="text-align:center">
-  <a href="form.html" alt="link">Resgistration Link</a>
-</div>
-</body>
+  <head>
+    <style>
+      a {text-decoration: none;
+         background-color: rgb(42, 42, 235);
+         color:white;
+         padding:10px;
+         border-radius:5px;
+         font-weight:lighter;}
+
+      a:hover{background-color: blue;}
+
+      li {list-style-type: none;
+          font-style:italic;}
+      
+      table {border: 1px solid black}
+
+      th,td {border: 1px solid black;
+             padding: 8px;
+             text-align: center;}
+
+      
+    </style>
+    <title>OotyRailsOnline.com</title>
+  </head>
+  <body style="
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;">
+     <h1>Ooty Mountain Ride</h1>
+     <img 
+         src="https://www.tamilnadutourism.tn.gov.in/img/pages/medium-desktop/take-a-ride-in-the-toy-train-1653978188_8ac904b5bdb228abad78.webp" 
+         alr="ooty mountain ride image" 
+         style="width:500px;"/>
+     <h2>About us</h2>
+     <p 
+       style="text-align:justify;
+              margin:0px 40px 0px 40px;
+              text-indent:20px;
+              line-height:1.5;">
+            Our Ooty Mountain Ride booking website offers a hassle-free experience in just a few clicks. 
+            On the homepage, you'll find stunning visuals of the Nilgiri Mountains and a user-friendly booking 
+            system where you can effortlessly select travel dates, class preferences, and the number of passengers. 
+            Discover the rich history of the Nilgiri Mountain Railway, check the train schedule for convenient 
+            travel planning, and get answers to common questions and travel tips in our FAQs section. 
+            For any assistance, our customer support is just a click away. Join us to embark on a memorable journey 
+            through these scenic hills.
+      </p>
+      <h3>Service Timings</h3>
+      <table>
+        <tr>
+          <th>Mettupalayam to Ooty</th>
+          <th>Ooty to Mettupalayam</th>
+        </tr>
+        <tr>
+          <td>
+            <li>9:00</li>
+            <li>12:00</li>
+            <li>16:00</li>
+         </td>
+         <td>
+            <li>6:00</li>
+            <li>10:00</li>
+            <li>13:00</li>
+         </td>
+        </tr>
+     </table>
+    <div style="margin:25px;">
+        <a href="form.html" alt="link">Book Tickets</a>
+     </div>
+    </body>
 </html>
